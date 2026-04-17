@@ -24,7 +24,7 @@ body::before {
 
 /* Header */
 header {
-    background-color: #2563eb;
+    background-color: #1e40af;
     color: #ffffff;
     padding: 1.25rem 1rem;
     text-align: center;
@@ -244,7 +244,7 @@ footer {
     text-align: center;
     padding: 1.25rem 1rem;
     background-color: #1e40af;
-    color: #f8fafc;
+    color: #FFFFFF;
     font-size: 0.95rem;
 }
 
