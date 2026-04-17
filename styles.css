@@ -83,6 +83,56 @@ section:hover {
     border-color: rgba(59,130,246,0.16);
 }
 
+section.hero {
+    text-align: center;
+    max-width: 820px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+    border-color: rgba(37,99,235,0.14);
+}
+
+section.hero p {
+    margin: 0 auto 1.5rem;
+    max-width: 56ch;
+    color: #334155;
+}
+
+section.hero img,
+section.hero .hero-image {
+    margin: 1.5rem auto 0;
+    display: block;
+    width: 160px;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(15,23,42,0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section.hero a:hover .hero-image {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 22px 46px rgba(15,23,42,0.16);
+}
+
+.button-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.95rem 1.6rem;
+    margin-top: 1rem;
+    border-radius: 999px;
+    background-color: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 14px 30px rgba(37,99,235,0.18);
+    transition: transform 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button-link:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
 h2 {
     margin-bottom: 1rem;
     color: #1d4ed8;
